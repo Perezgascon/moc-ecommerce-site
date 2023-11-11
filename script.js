@@ -12,7 +12,7 @@ function updateShoppingCart() {
     if (shoppingCartCounter) {
         shoppingCartCounter.innerHTML = shoppingCart.length;
     }
-    
+
     shoppingCartPrice.innerHTML = addPrices();
 }
 
