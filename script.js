@@ -1,11 +1,8 @@
 
-// product menu
-let shoppingCart = []; // Declare shoppingCart globally
-let pricesItemsCart = []; //
+let shoppingCart = JSON.parse(localStorage.getItem('shoppingCart')) || [];
+let pricesItemsCart = JSON.parse(localStorage.getItem('pricesItemsCart')) || [];
 
 function updateShoppingCart() {
-    shoppingCart = JSON.parse(localStorage.getItem('shoppingCart')) || [];
-    pricesItemsCart = JSON.parse(localStorage.getItem('pricesItemsCart')) || [];
 
     // Check if shoppingCartCounter exists before using it
     const shoppingCartCounter = document.querySelector(".shopping-cart-item-counter");
