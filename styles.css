@@ -268,6 +268,18 @@ a {
     text-align: center;
 }
 
+#order-container {
+    margin: 60px auto;  
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.total-container {
+    margin: 60px auto;  
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .clear-button {
     position: sticky;
     display: flex;
